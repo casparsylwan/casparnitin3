@@ -8,6 +8,7 @@
 #' @return
 #' @export
 #'
+#'
 dijkstra<-function(df,s){
 
   na_vec<-c(rep(NA,1,dim(wiki_graph)[1]))
