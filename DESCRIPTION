@@ -1,0 +1,12 @@
+Package: casparnitin3
+Type: Package
+Title: CasparNitin
+Version: 0.1.0
+Author: Caspar Sylwan, Nitin Kumar
+Maintainer: Caspar Sylwan <casparsylwan@gmail.com>, Nitin Kumar <datascience.nitinkumar@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
