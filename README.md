@@ -1,4 +1,6 @@
 
+[![Travis build status](https://travis-ci.org/casparsylwan/casparnitin3.svg?branch=master)](https://travis-ci.org/casparsylwan/casparnitin3)
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 casparnitin3
 ============
