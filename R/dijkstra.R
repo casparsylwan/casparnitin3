@@ -11,6 +11,8 @@
 #'
 dijkstra<-function(df,s){
 
+  if(!is.data.frame(df)){stop("dataframe")}
+
   na_vec<-c(rep(NA,1,dim(wiki_graph)[1]))
   wiki_graph<-cbind(wiki_graph,na_vec)
   index<-1
@@ -41,6 +43,6 @@ dijkstra<-function(df,s){
     small[index]<-cost
     s<-d}
 
-  return(rbind(small_nod,small))}
+  return(small)  }
 
 

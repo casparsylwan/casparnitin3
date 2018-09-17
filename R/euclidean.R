@@ -10,16 +10,18 @@
 euclidean <- function(x1,x2){
 
   is.scalar <- function(femto) is.numeric(femto) && length(femto) == 1L
+  x3 <- abs(x1)
+  x4 <- abs(x2)
   if(is.scalar(x1)==FALSE || is.scalar(x2)==FALSE){
     stop("The input is not correct")}
 
-  if(x1>x2){
-    smallern<-x2
+  if(x3>x4){
+    smallern<-x4
   } else {
-    smallern<-x1
+    smallern<-x3
   }
   for(i in 1:smallern){
-    if((x1%%i==0)&&(x2%%i==0)){
+    if((x3%%i==0)&&(x4%%i==0)){
       euclid=i
     }}
   return(euclid)
