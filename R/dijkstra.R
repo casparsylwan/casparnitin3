@@ -1,6 +1,6 @@
 #' Dijkstra finds the shortest distance between two nodes.
 #'
-#' @description Dijkstra finds the shortest path to a graph
+#' @description Dijkstra finds the shortest path between two nodes in a graph
 #'
 #' @param df the first parameter
 #' @param s  the second parameter
