@@ -4,9 +4,10 @@ Title: CasparNitin
 Version: 0.1.0
 Author: Caspar Sylwan, Nitin Kumar
 Maintainer: Caspar Sylwan <casparsylwan@gmail.com>, Nitin Kumar <datascience.nitinkumar@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: The package contains two functions i.e. Euclidean, which calculates GCD of two numbers, and Dijkstra, which calculates minimum distance between two nodes.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.0
+URL: https://github.com/casparsylwan/casparnitin3
+BugReports: https://github.com/casparsylwan/casparnitin3/issues
